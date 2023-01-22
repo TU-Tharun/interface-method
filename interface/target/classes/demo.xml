@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<bean id="demo" class="com.example.demo.student">
+<property name="co" ref="tu1"></property>
+<property name="le" ref="tu2"></property>
+</bean>
+<bean id="tu1" class="com.example.demo.college">
+<property name="A" value="sdm"></property>
+<property name="B" value="sdm"></property>
+</bean>
+<bean id="tu2" class="com.example.demo.college">
+<property name="A" value="polytechnic"></property>
+<property name="B" value="IT"></property>
+</bean>
+</beans>
